@@ -1,0 +1,35 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.input-group {
+    padding: 20px;
+}
+
+.input-group label {
+    display: inline-block;
+    width: 20%;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    color: white;
+    background-image: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+

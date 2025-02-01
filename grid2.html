@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Grid Task</title>
+
+        <style>
+            .grid-container {
+                display: grid;
+                grid-template-areas:
+                    "one two two three"
+                    "one four five five"
+                    "six seven seven ten"
+                    "eight eight nine ten"
+                    "eleven twelve twelve thirteen"
+                    "eleven fourteen fifteen fifteen"
+                    "sixteen seventeen seventeen eighteen";
+            }
+
+            #grid-item1 {
+                background-color: bisque;
+                grid-area: one;
+            }
+            #grid-item2 {
+                background-color: cadetblue;
+                grid-area: two;
+            }
+            #grid-item3 {
+                background-color: #493d9e;
+                grid-area: three;
+            }
+            #grid-item4 {
+                background-color: #f8e7f6;
+                grid-area: four;
+            }
+            #grid-item5 {
+                background-color: #f0a04b;
+                grid-area: five;
+            }
+            #grid-item6 {
+                background-color: #eb5a3c;
+                grid-area: six;
+            }
+            #grid-item7 {
+                background-color: #e7fbb4;
+                grid-area: seven;
+            }
+            #grid-item8 {
+                background-color: #369e6c;
+                grid-area: eight;
+            }
+            #grid-item9 {
+                background-color: #543a14;
+                grid-area: nine;
+            }
+            #grid-item10 {
+                background-color: #0a97b0;
+                grid-area: ten;
+            }
+            #grid-item11 {
+                background-color: burlywood;
+                grid-area: eleven;
+            }
+            #grid-item12 {
+                background-color: #69bbd6;
+                grid-area: twelve;
+            }
+            #grid-item13 {
+                background-color: blanchedalmond;
+                grid-area: thirteen;
+            }
+            #grid-item14 {
+                background-color: aqua;
+                grid-area: fourteen;
+            }
+            #grid-item15 {
+                background-color: chocolate;
+                grid-area: fifteen;
+            }
+            #grid-item16 {
+                background-color: green;
+                grid-area: sixteen;
+            }
+            #grid-item17 {
+                background-color: palevioletred;
+                grid-area: seventeen;
+            }
+            #grid-item18 {
+                background-color: chartreuse;
+                grid-area: eighteen;
+            }
+
+            .grid-container {
+                width: 50%;
+            }
+
+            .grid-item {
+                margin: 2px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                border: 4px solid black;
+                padding: 50px 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="grid-item" id="grid-item1">1</div>
+            <div class="grid-item" id="grid-item2">2</div>
+            <div class="grid-item" id="grid-item3">3</div>
+            <div class="grid-item" id="grid-item4">4</div>
+            <div class="grid-item" id="grid-item5">5</div>
+            <div class="grid-item" id="grid-item6">6</div>
+            <div class="grid-item" id="grid-item7">7</div>
+            <div class="grid-item" id="grid-item8">8</div>
+            <div class="grid-item" id="grid-item9">9</div>
+            <div class="grid-item" id="grid-item10">10</div>
+            <div class="grid-item" id="grid-item11">11</div>
+            <div class="grid-item" id="grid-item12">12</div>
+            <div class="grid-item" id="grid-item13">13</div>
+            <div class="grid-item" id="grid-item14">14</div>
+            <div class="grid-item" id="grid-item15">15</div>
+            <div class="grid-item" id="grid-item16">16</div>
+            <div class="grid-item" id="grid-item17">17</div>
+            <div class="grid-item" id="grid-item18">18</div>
+        </div>
+    </body>
+</html>
