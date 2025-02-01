@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
+    <link rel="stylesheet" href="wedding.css">
     <title>Document</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
@@ -19,18 +19,17 @@
             <h1 class="text-4xl font-[Great_Vibes]">Belle</h1>
         </div>
         <div class="text-lg group2 flex gap-15 opacity-75">
-            <a href="" class="nav-items">Home</a>
-            <a href="" class="nav-items">Events</a>
-            <a href="" class="nav-items">Story</a>
-            <a href="" class="nav-items">Gallery</a>
-            <a href="" class="nav-items">Contact Us</a>
-            <a href="" class="nav-items">Pages</a>
+            <a href="#" class="nav-items">Home</a>
+            <a href="#" class="nav-items">Events</a>
+            <a href="#" class="nav-items">Story</a>
+            <a href="#" class="nav-items">Gallery</a>
+            <a href="#" class="nav-items">Contact Us</a>
+            <a href="#" class="nav-items">Pages</a>
         </div>
     </div>
 
-    <!-- ACTUAL IMAGE LINK - https://html.fairytheme.net/belle/images/header-bg.jpg -->
     <!-- https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701414126.jpg -->
-
+    
     <div class="bg-[url(https://html.fairytheme.net/belle/images/header-bg.jpg)] bg-cover h-screen flex flex-col justify-end items-center py-35 bg-fixed">
         <div class="title text-center">
             <h1 class="text-9xl text-white text-bold font-extrabold font-[Amatic_SC] mb-10">SAVE THE DATE</h1>
@@ -42,6 +41,7 @@
         </div>
     </div>
 
+    <!-- INVITATION -->
     <div class="flex flex-col items-center py-25">
         <h1 class="text-5xl font-[Great_Vibes]">Hello!</h1>
         <span class="font-light text-lg p-4 font-[Open_Sans]">We invite you to celebrate our Wedding</span>
@@ -62,6 +62,7 @@
         </div>
     </div>
 
+    <!-- COUNTDOWN -->
     <div class="bg-[url(https://html.fairytheme.net/belle/images/countdown-bg.jpg)] text-white bg-cover py-35">
         <div class="w-1/2 mx-auto">
             <h1 class="text-center font-[Great_Vibes] text-5xl">The big day</h1> <br>
@@ -80,6 +81,7 @@
         </div>
     </div>
 
+    <!-- EVENTS -->
     <div class="py-20">
         <div class="text-center max-w-1/2 mx-auto">
             <p>OUR SPECIAL EVENTS</p>
@@ -107,6 +109,7 @@
         </div>
     </div>
 
+    <!-- Story -->
     <div class="py-20 bg-stone-200">
         <div class="max-w-1/2 mx-auto text-center">
             <h2 class="font-light text-md">WE LOVE EACH OTHER</h2><br>
@@ -145,7 +148,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
                     </p>
                     <br>
-                    <span class="underline">Read More</span>
+                    <span class="underline hover:cursor-pointer">Read More</span>
                 </div>
             </div>
             <div class="w-13/20 grid grid-cols-3">
@@ -158,7 +161,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
                         </p>
                         <br>
-                        <span class="underline">Read More</span>
+                        <span class="underline hover:cursor-pointer">Read More</span>
                     </div>
                 </div>
                 <div class="flex justify-center items-center">
@@ -169,7 +172,66 @@
 
     </div>
 
+    <!-- Memories -->
+     <div class="py-20">
+        <div class="max-w-3/5 text-center mx-auto mb-20">
+            <h2 class="font-light font-[Open_Sans] text-sm text-gray-500">OUR MEMORIES</h2><br>
+            <h1 class="text-5xl font-[Great_Vibes]">Wedding gallery</h1><br>    
+            <p class="font-[Open_Sans] text-lg opacity-70">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam </p>
+        </div>
+        <div class="flex gap-8 justify-center text-md">
+            <a class="hover:cursor-pointer border-b-3 border-black pb-3 px-2" href="#">ALL</a>
+            <a class="hover:cursor-pointer" href="#">MOMENTS</a>
+            <a class="hover:cursor-pointer" href="#">FRIENDS</a>
+            <a class="hover:cursor-pointer" href="#">BANQUET</a>
+            <a class="hover:cursor-pointer" href="#">FAMILY</a>
+            <a class="hover:cursor-pointer" href="#">PARTY</a>
+        </div>
+        <hr class="max-w-3/5 mx-auto">
 
+        <br>
+        <div class="gallery mx-auto max-w-3/5">
+            <div class="grid-item hover:cursor-pointer hover:brightness-75 duration-300" id="grid-item1"><img src="https://html.fairytheme.net/belle/images/gallery-1.jpg" alt=""></div>
+            <div class="grid-item hover:cursor-pointer hover:brightness-75 duration-300" id="grid-item2"><img src="https://html.fairytheme.net/belle/images/gallery-2.jpg" alt=""></div>
+            <div class="grid-item hover:cursor-pointer hover:brightness-75 duration-300" id="grid-item3"><img src="https://html.fairytheme.net/belle/images/gallery-3.jpg" alt=""></div>
+            <div class="grid-item hover:cursor-pointer hover:brightness-75 duration-300" id="grid-item4"><img src="https://html.fairytheme.net/belle/images/gallery-4.jpg" alt=""></div>
+            <div class="grid-item hover:cursor-pointer hover:brightness-75 duration-300" id="grid-item5"><img src="https://html.fairytheme.net/belle/images/gallery-5.jpg" alt=""></div>
+            <div class="grid-item hover:cursor-pointer hover:brightness-75 duration-300" id="grid-item6"><img src="https://html.fairytheme.net/belle/images/gallery-10.jpg" alt=""></div>
+            <div class="grid-item hover:cursor-pointer hover:brightness-75 duration-300" id="grid-item7"><img src="https://html.fairytheme.net/belle/images/gallery-7.jpg" alt=""></div>
+            <div class="grid-item hover:cursor-pointer hover:brightness-75 duration-300" id="grid-item8"><img src="https://html.fairytheme.net/belle/images/gallery-8.jpg" alt=""></div>
+            <div class="grid-item hover:cursor-pointer hover:brightness-75 duration-300" id="grid-item9"><img src="" alt=""></div>
+            <div class="grid-item hover:cursor-pointer hover:brightness-75 duration-300" id="grid-item10"><img src="https://html.fairytheme.net/belle/images/gallery-9.jpg" alt=""></div>
+            <div class="grid-item hover:cursor-pointer hover:brightness-75 duration-300" id="grid-item11"><img src="" alt=""></div>
+            <div class="grid-item hover:cursor-pointer hover:brightness-75 duration-300" id="grid-item12"><img src="" alt=""></div>
+        </div>
+
+        <div class="flex justify-center">
+            <button class="py-3 px-10 mt-10 text-xl border-1 border-black hover:cursor-pointer hover:bg-black hover:text-white duration-200">View all</button>
+        </div>
+        
+     </div>
+
+    <!-- Counter -->
+     <div class="py-25 bg-[url(https://html.fairytheme.net/belle/images/counter-bg.jpg)] bg-cover">
+        <div class="flex justify-center gap-70 text-white text-center">
+            <div>
+                <p class="text-6xl font-[300]">120</p>
+                <p class="font-[Great_Vibes] text-3xl">guests</p>
+            </div>
+            <div>
+                <p class="text-6xl font-[300]">1000</p>
+                <p class="font-[Great_Vibes] text-3xl">kisses</p>
+            </div>
+            <div>
+                <p class="text-6xl font-[300]">200</p>
+                <p class="font-[Great_Vibes] text-3xl">sleepless nights</p>
+            </div>
+            <div>
+                <p class="text-6xl font-[300]">120</p>
+                <p class="font-[Great_Vibes] text-3xl">days together</p>
+            </div>
+        </div>
+     </div>
 
 
     <script src="wedscript.js"></script>
